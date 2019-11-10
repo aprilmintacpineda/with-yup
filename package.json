@@ -1,0 +1,52 @@
+{
+  "name": "with-yup",
+  "version": "1.0.0",
+  "description": "React validator HOC integrated with yup.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib/*",
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "package-lock.json"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "redefine-statics-js": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.5.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.17.0"
+  },
+  "scripts": {
+    "reinstallNodeModules": "rm -rf package-lock.json node_modules && npm i",
+    "test": "jest",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aprilmintacpineda/with-yup.git"
+  },
+  "keywords": [
+    "react-js",
+    "yup-js",
+    "react-yup-validator",
+    "validator",
+    "validator-js"
+  ],
+  "author": "April Mintac Pineda",
+  "license": "MIT"
+}
